@@ -19,3 +19,9 @@ target_link_libraries(my_project pico_stdlib)
 
 pico_add_extra_outputs(my_project)
 
+include_directories(
+    /usr/arm-none-eabi/include
+    /usr/lib/gcc/arm-none-eabi/14.2.0/include
+    /usr/lib/gcc/arm-none-eabi/14.2.0/include-fixed
+)
+
