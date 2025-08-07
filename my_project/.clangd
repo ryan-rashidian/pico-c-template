@@ -1,0 +1,8 @@
+CompileFlags:
+  Add: [
+    "-isystem", "/usr/arm-none-eabi/include",
+    "-isystem", "/usr/lib/gcc/arm-none-eabi/12.2.1/include",  # adjust version if needed
+    "-isystem", "/usr/lib/gcc/arm-none-eabi/12.2.1/include-fixed" # optional
+  ]
+  QueryDriver: [/usr/bin/arm-none-eabi-gcc]
+
